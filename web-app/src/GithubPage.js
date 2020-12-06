@@ -5,19 +5,46 @@ function GithubPage() {
         <div 
             
         >
-            <nav class="navbar sticky-top navbar-light bg-primary">
-                <a class="navbar-brand" style={{
-                    color:"#fff"
-                }}>
-                    {"Payment Chart"}
-                </a>
-                <form class="form-inline">
-                    <a class="btn btn-success my-2 my-sm-0" href="https://github.com/ravindusamaraweera/payment-chart" type="button">View in Github</a>
-                </form>
-            </nav>
+            
+            <div class="fixed-top">
+                
+                
+                <nav class="navbar navbar-dark bg-dark">
+                    
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <form class="form-inline">
+                        <a class="btn btn-success my-2 my-sm-0" href="https://github.com/ravindusamaraweera/payment-chart" type="button">View in Github</a>
+                    </form>
+                    <a class="navbar-brand" style={{
+                        position:"absolute",
+                        color: "#fff",
+                        marginLeft:75
+                    }}>
+                        {"Payment Chart"}
+                    </a>
+                </nav>
+
+                <div class="collapse" id="navbarToggleExternalContent">
+                    <div class="bg-dark p-4">
+                        <a class="text-white h5">Privacy Policy</a>
+                        <div
+                            style={{
+                                width:"100%",
+                                height:10
+                            }}
+                        >
+
+                        </div>
+                        <a class="text-white h5" >About</a>
+                    </div>
+                </div>
+                
+            </div>
 
             <div class="card" style={{
-                marginTop:10
+                marginTop:80
             }}>
                 <div class="card-body">
                     <h5 class="card-title">Privacy Policy</h5>
