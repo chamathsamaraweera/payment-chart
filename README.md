@@ -1,2 +1,0 @@
-# payment-chart
-Privacy Policy
