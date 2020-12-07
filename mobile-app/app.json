@@ -1,13 +1,15 @@
 {
   "expo": {
-    "name": "payment-chart",
+    "name": "Payment Chart",
     "slug": "payment-chart",
+    "privacy": "public",
+    "description": "Keep track of your payments information in one place",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
-      "resizeMode": "contain",
+      "resizeMode": "cover",
       "backgroundColor": "#ffffff"
     },
     "updates": {
