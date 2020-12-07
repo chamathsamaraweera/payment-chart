@@ -6,11 +6,11 @@
     "description": "Keep track of your payments information in one place",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/adaptive-icon.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "cover",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#a6e32d"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -19,16 +19,20 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier": "com.ravindusamaraweera.paymentchart",
+      "buildNumber": "1.0.0",
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.ravindusamaraweera.paymentchart",
+      "versionCode": 1
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/adaptive-icon.png"
     }
   }
 }
