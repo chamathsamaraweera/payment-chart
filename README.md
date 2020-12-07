@@ -2,7 +2,7 @@
 
 ### About
 
-This is an android mobile application that helps you to keep track of your payments informations in one place. 
+This is an android mobile application that helps you to keep track of your payments informations in one place which is developed using react native. 
 
 ### Technology Stack
 
@@ -10,4 +10,10 @@ This is used React, React Native, Redux and Firebase as the technology stack and
 
 ### Privacy Policy
 
-You can find the [Privacy Policy](https://ravindusamaraweera.github.io/payment-chart/) details here.
+You can find the [Privacy Policy](https://ravindusamaraweera.github.io/payment-chart/) statement here which is developed using react.
+
+### Releases
+
+Version | Released date
+------------ | -------------
+ 1.0.0 | 2020-12-06
