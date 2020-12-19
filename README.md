@@ -16,4 +16,4 @@ You can find the [Privacy Policy](https://ravindusamaraweera.github.io/payment-c
 
 Version | Released date
 ------------ | -------------
- 1(1.0.0) | 2020-12-19
+ 1 (1.0.0) | 2020-12-19
